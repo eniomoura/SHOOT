@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\PropBehaviour.cs" />
      <Compile Include="Assets\Scripts\ShipBehaviour.cs" />
      <Compile Include="Assets\Scripts\ThrusterLightControl.cs" />
+     <Compile Include="Assets\Turret.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

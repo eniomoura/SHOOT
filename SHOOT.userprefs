@@ -1,6 +1,14 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+﻿<Properties GitUserInfo="UsingGIT">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Turret.cs">
+    <Files>
+      <File FileName="Assets\Turret.cs" Line="26" Column="23" />
+      <File FileName="Assets\Scripts\MassDriver.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ShipBehaviour.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EntidadeLeve.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PropBehaviour.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

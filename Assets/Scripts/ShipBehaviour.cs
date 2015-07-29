@@ -81,8 +81,12 @@ public class ShipBehaviour : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision obstacle){
-		hull=hull-Mathf.Pow(obstacle.relativeVelocity.magnitude, 2);
-		thrust=0;
+		if(obstacle.rigidbody.mass>=100){
+			hull=hull-Mathf.Pow(obstacle.relativeVelocity.magnitude, 2);
+			thrust=0;
+		}else{
+			hull=hull-(obstacle.rigidbody.mass*100);
+		}
 		if(hull<20){
 			onFire=true;
 			fire.Play();

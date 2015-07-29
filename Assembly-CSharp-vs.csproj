@@ -51,6 +51,7 @@
      <Compile Include="Assets\Scripts\PropBehaviour.cs" />
      <Compile Include="Assets\Scripts\ShipBehaviour.cs" />
      <Compile Include="Assets\Scripts\ThrusterLightControl.cs" />
+     <Compile Include="Assets\Turret.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>D:/Users/Enio/Documents/SHOOT/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
